@@ -1,0 +1,18 @@
+.dialogs {
+background-color: whitesmoke;
+display:grid;
+grid-template-columns: 2fr 10fr;
+}
+.dialogs a{
+    color: red;
+}
+.dialogs div{
+    color: red;
+}
+.dialogs-items{
+    padding: 10px;
+}
+
+.messages{
+padding: 10px;
+}
