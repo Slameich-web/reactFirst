@@ -1,6 +1,7 @@
 .header{
     grid-area: h;
     background-color: #4186D3;
+    width: 90%;
 }
 .loginBlock {
     float: right;
