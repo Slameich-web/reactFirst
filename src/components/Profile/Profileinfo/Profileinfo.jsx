@@ -34,7 +34,7 @@ const onSubmit = (formData) => {
                     : <ProfileData goToEditMode={() => {setEditMode(true)} } profile={profile} isOwner={isOwner}/> }
 
         </div>
-        <div className="descriptionBlock">
+        <div className={s.photo}>
         <img src={profile.photos.large} />
                 <ProfileStatusWithHooks status={status} updateStatus={updateStatus}/>
         </div>
@@ -72,3 +72,4 @@ const Contact = ({contactTitle, contactValue}) => {
 }
 
   export default ProfileInfo;
+  

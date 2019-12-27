@@ -1,6 +1,6 @@
 .header{
     grid-area: h;
-    background-color: #4186D3;
+    background-color: cornsilk;
     width: 90%;
 }
 .loginBlock {
@@ -9,10 +9,22 @@
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: black 1px solid;
 }
 .loginBlock a {
     color: white;
+}
+.loginBlock button{
+    background-color: sandybrown;
+    border-radius: 30PX;
+    height: 30px;
+    width: 80px;
+    border: 1px  solid saddlebrown;
+}
+.loginBlock button:hover{
+    background-color: orange;
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
 }
 .logo{
     height: 70px;

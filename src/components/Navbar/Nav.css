@@ -1,20 +1,57 @@
+
 .nav{
     grid-area: n;
-    background-color: #04356C;
+    background-color: cornsilk;
     }
-    .item a{
-        color: wheat;
-        text-decoration: none;
-        padding-left: 20px;
-        
+    a h4{
+        background:linear-gradient(to bottom, #FFFFFF, #E6E6E6) #F5F5F5 repeat-x;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(9, 0, 0, 0.05);
+        color:black;
+            text-decoration:none;
+        display:block;
+        font-size: 14px;
+            width:120px;
+        line-height: 20px;
+        margin: 20px auto;
+        padding: 4px 12px;
+        text-align: center;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+      position: relative;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: -webkit-transform;
+      transition-property: transform;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     }
-    .item a.active{
-        color: goldenrod;
-        padding-left: 20px;
-    }
-    .item h4{
-        padding-left: 20px;
-        border: solid rgba(218, 142, 214, 0.726) 3px;
-        border-radius: 50px;
-        padding-left:100px; 
-    }
+    
+    a h4 {
+        background-color: #FFFFFF;
+          border: 1px solid #CCCCCC;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+          transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+              border-radius: 4px;
+          color: #555555;
+          display:block;
+              width:120px;
+              margin: 20px auto;
+          font-size: 14px;
+              text-align:center;
+          height: 20px;
+          line-height: 20px;
+          margin-bottom: 10px;
+          padding: 4px 6px;
+          text-decoration:none;
+      }
+      a h4:hover, a h4:focus {
+         border-color: rgba(82, 168, 236, 0.8);
+         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+         outline: 0 none;
+      }

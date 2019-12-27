@@ -1,3 +1,4 @@
+
 .userPhoto {
     width: 100px;
    height: 100px;
@@ -5,6 +6,22 @@
 .selectedPage {
     font-weight: bold;
 }
-div{
-    
+.status div{
+    width: 60%;
+    padding-bottom: 8px;
+    padding-top: 2px;
+
+}
+.main{
+    padding-left: 10px;
+}
+.follow button{
+    background-color: rgb(31, 170, 38);
+    text-align: center;
+    border: 1px solid black;
+}
+.unfollow button{
+    background-color: red;
+    text-align: center;
+    border: 1px solid black;
 }
